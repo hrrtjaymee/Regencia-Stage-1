@@ -11,7 +11,7 @@ server.listen(port, (error) => {
         console.log(error);
     }
     else{
-        console.log(`Using port ` + port);
+        console.log(`Using port ${port}`);
     }
 })
 
